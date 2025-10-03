@@ -1,7 +1,7 @@
-/* Variáveis CSS para cores */
+/* VariÃ¡veis CSS para cores */
 :root {
     --color-primary-blue: #0A1128; /* Azul Marinho Escuro */
-    --color-secondary-blue: #122340; /* Azul Marinho Médio */
+    --color-secondary-blue: #122340; /* Azul Marinho MÃ©dio */
     --color-tertiary-blue: #1F3A60; /* Azul Marinho Claro */
     --color-accent-gold: #FFD700; /* Dourado */
     --color-light-gray: #F8F8F8; /* Cinza Claro */
@@ -10,7 +10,7 @@
     --color-text-light: #666666;
 }
 
-/* Reset Básico e Fontes */
+/* Reset BÃ¡sico e Fontes */
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ ul {
     list-style: none;
 }
 
-/* Botões */
+/* BotÃµes */
 .btn-primary {
     display: inline-flex;
     align-items: center;
@@ -110,7 +110,7 @@ ul {
 }
 
 .navbar .logo-img {
-    height: 50px; /* Ajuste o tamanho do logo conforme necessário */
+    height: 50px; /* Ajuste o tamanho do logo conforme necessÃ¡rio */
     width: auto;
 }
 
@@ -192,9 +192,9 @@ ul {
     z-index: 1;
     border-radius: 5px;
     overflow: hidden;
-    top: 100%; /* Posiciona abaixo do botão */
+    top: 100%; /* Posiciona abaixo do botÃ£o */
     left: 0;
-    margin-top: 10px; /* Espaçamento */
+    margin-top: 10px; /* EspaÃ§amento */
 }
 
 .dropdown-content a {
@@ -215,7 +215,7 @@ ul {
     display: block;
 }
 
-/* Seções Gerais */
+/* SeÃ§Ãµes Gerais */
 .section-padding {
     padding: 80px 0;
 }
@@ -268,7 +268,7 @@ ul {
     overflow: hidden;
     background: linear-gradient(to bottom right, var(--color-primary-blue), var(--color-secondary-blue));
     color: var(--color-white);
-    padding-top: 80px; /* Espaço para a navbar fixa */
+    padding-top: 80px; /* EspaÃ§o para a navbar fixa */
 }
 
 .hero-overlay {
@@ -322,7 +322,7 @@ ul {
 }
 
 .hero-buttons .btn-primary {
-    background: linear-gradient(to right, var(--color-accent-gold), #FFC107); /* Variação do dourado */
+    background: linear-gradient(to right, var(--color-accent-gold), #FFC107); /* VariaÃ§Ã£o do dourado */
     color: var(--color-primary-blue);
 }
 
@@ -718,7 +718,7 @@ ul {
 }
 
 .profile-section ul li::before {
-    content: '\f00c'; /* Ícone de check */
+    content: '\f00c'; /* Ãcone de check */
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     position: absolute;
@@ -1107,7 +1107,7 @@ footer {
     margin-top: 10px;
 }
 
-/* Animações */
+/* AnimaÃ§Ãµes */
 @keyframes bounce {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
@@ -1205,7 +1205,7 @@ footer {
         display: block;
     }
     .navbar .logo-text {
-        display: none; /* Esconde o texto do logo em mobile para economizar espaço */
+        display: none; /* Esconde o texto do logo em mobile para economizar espaÃ§o */
     }
     .hero-title {
         font-size: 38px;
